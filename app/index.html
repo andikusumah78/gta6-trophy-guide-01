@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Guide — GTA VI Platinum Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; 55 trophies</p>
+    <h1>Leonida Trophy Guide</h1>
+    <p class="subtitle">Every trophy, its official name and grade, a guide in our own words with its sources, and a tracker that remembers your progress. Works offline — nothing here loads from the network.</p>
+    <div class="progress-wrap" aria-label="Platinum progress">
+      <div class="progress-top"><span id="progressText">0 of 55 earned</span><span id="progressPct">0%</span></div>
+      <div class="bar"><div id="progressFill" class="fill"></div></div>
+      <p class="counts" id="gradeCounts"></p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="warn" id="missableBanner">
+    <h2>⚠ The one trophy that might be missed</h2>
+    <p><strong>Positive Mental Attitude</strong> — meditate at every spot across Leonida. After the mission <em>Down to Earth</em> in Chapter 1, find Lucia at Jason&rsquo;s house in the morning, follow her to the balcony and meditate there <strong>before Chapter 1 ends</strong>. Every other trophy can be earned after the story in free roam. Sources: PowerPyx via KeenGamer, GTABase, GTA Vibes.</p>
+    <p class="warn-sub">Stranger mission strands (Andy, Kenton, Billy, Randy, Tyrone) are also reported to have windows tied to story progress — do each strand&rsquo;s missions as they appear.</p>
+  </section>
+
+  <section class="roadmap" id="roadmap">
+    <h2>Roadmap to the platinum</h2>
+    <p class="roadmap-intro">Four stages, in order. The platinum is <strong>Vice Got a Price!</strong> and pops when the other 54 are done. All 55 trophies are offline and single-player — there are no online trophies.</p>
+    <ol class="stages">
+      <li><h3>Stage 1 — Play the story</h3><p>Chapters 1–4, the final mission, and the seven named story missions. Do the Lucia balcony meditation in Chapter 1. Expect roughly 13 story trophies here.</p><p class="stage-list" data-stage="1"></p></li>
+      <li><h3>Stage 2 — Side content as it opens</h3><p>Stranger strands, partner crime, activities and the small moment trophies. Do stranger missions as they appear, not after the story.</p><p class="stage-list" data-stage="2"></p></li>
+      <li><h3>Stage 3 — Post-story cleanup</h3><p>Free roam after the credits: stunts, shooting ranges, drone races, races, collectibles, vaults, gangs and money trophies. The 100% checklist is open now (Touch Pad &gt; Progress &gt; Stats &gt; 100% Completion).</p><p class="stage-list" data-stage="3"></p></li>
+      <li><h3>Stage 4 — 100% completion, then platinum</h3><p>Clear the whole 100% checklist for <strong>A Long Road</strong> (gold). The platinum pops with it.</p><p class="stage-list" data-stage="4"></p></li>
+    </ol>
+  </section>
+
+  <section class="tracker" id="tracker">
+    <h2>Trophy tracker</h2>
+    <div class="controls">
+      <label class="search-label">Search <input id="search" type="search" placeholder="Trophy, mission or keyword…" autocomplete="off"></label>
+      <label class="grade-label">Grade <select id="grade"><option value="all">All grades</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
+      <label class="spoiler-label"><input id="spoiler" type="checkbox" checked> Hide story spoilers</label>
+    </div>
+    <div class="kinds" id="kinds" role="group" aria-label="Filter by kind">
+      <button type="button" data-kind="all" class="kind active">All <span id="countAll"></span></button>
+      <button type="button" data-kind="story" class="kind">Story <span id="countStory"></span></button>
+      <button type="button" data-kind="missable" class="kind">Missable <span id="countMissable"></span></button>
+      <button type="button" data-kind="collectibles" class="kind">Collectibles <span id="countCollectibles"></span></button>
+      <button type="button" data-kind="activities" class="kind">Activities <span id="countActivities"></span></button>
+      <button type="button" data-kind="online" class="kind">Online <span id="countOnline"></span></button>
+    </div>
+    <p class="hint">Tick a trophy when you earn it — it stays ticked in this browser. Click a card to open its guide and sources. Spoiler mode hides the names and descriptions of un-earned story trophies until you tick them.</p>
+    <div class="tools">
+      <button id="exportBtn" type="button">Export progress (.json)</button>
+      <label class="import-btn">Import progress <input id="importFile" type="file" accept="application/json,.json"></label>
+      <button id="resetBtn" type="button">Reset all ticks</button>
+      <span id="status" class="status" aria-live="polite"></span>
+    </div>
+    <p id="emptyNote" class="empty-note" hidden></p>
+    <div id="cards" class="cards"></div>
+  </section>
+
+  <section class="about">
+    <h2>About this guide</h2>
+    <p>Names, descriptions and grades are the official PlayStation list as Exophase and PSNProfiles published it on 18 November 2026: 1 platinum, 2 gold, 6 silver, 46 bronze, 28 hidden. The guides are written for this entry in our own words and cite their sources beside each trophy — PowerPyx, Push Square, KeenGamer, EGamers, HowToVideoGame, GTA Vibes, GamesFuze, Insider Gaming and Vice City Hustle. Where no published method exists yet, the guide says so honestly instead of inventing a step. No Rockstar logo, artwork or game screenshot is used anywhere: the look is our own.</p>
+    <p class="about-links">Sources for the whole list: <a href="https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap">Push Square</a> &middot; <a href="https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/">KeenGamer</a> &middot; <a href="https://egamers.io/gta-6-trophy-list-all-55-trophies-and-achievements-plus-the-hardest-ones/">EGamers</a> &middot; <a href="https://howtovideogame.com/gta-6-trophies/">HowToVideoGame</a></p>
+  </section>
+</main>
+
+<footer><p>Leonida Trophy Guide — an unofficial fan guide. Grand Theft Auto and GTA are trademarks of Take-Two Interactive; this guide is not affiliated with Rockstar Games.</p></footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
